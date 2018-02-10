@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2018, 10:59:25 AM
+    Author     : denis
+*/
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #f2f2f2;
+}
+
+/*home.jsp*/
+
+.smallFont {
+    font-size: 14px;
+}
+
+#orderForm {
+    padding: 8px;
+    background-color: #F7F7F7;
+    width: 480px;
+}
+
+#orderForm td {
+    width: 180px;
+    padding: 2px;
+}
+
+/*createCompany.jsp*/
+
+#companyForm {
+    padding: 8px;
+    background-color: #F7F7F7;
+    width: 320px;
+}
+
+#companyForm td {
+    width: 200px;
+    padding: 2px;
+}
+
+#companiesTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#companiesTable th, #companiesTable td {
+    padding: 8px;
+}
+
+#companiesTable th {
+    text-align: center;
+}
+
+#companiesTable tr:nth-child(even) {background-color: #f2f2f2;}
+
+#newCompany {
+    color: green;
+}
+
+/*createFillingStation.jsp*/
+
+#fsForm {
+    padding: 8px;
+    background-color: #F7F7F7;
+    width: 710px;
+}
+
+#fsForm td {
+    width: 230px;
+    padding: 2px;
+}
+
+#fsTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#fsTable th, #fsTable td {
+    padding: 8px;
+}
+
+#fsTable th {
+    text-align: center;
+}
+
+#fsTable tr:nth-child(even) {background-color: #f2f2f2;}
+
+#newFillingStation {
+    color: green;
+}
+
