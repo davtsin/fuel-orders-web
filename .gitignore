@@ -1,3 +1,10 @@
 /target/
-/comment.txt
-/todo-list.txt
+/nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
