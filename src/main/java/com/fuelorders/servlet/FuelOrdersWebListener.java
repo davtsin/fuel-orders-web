@@ -30,8 +30,6 @@ public class FuelOrdersWebListener implements ServletContextListener {
         EntityManagerFactory emf
             = Persistence.createEntityManagerFactory("fuel-orders-web-eclipse-derby-PU");
 
-        // set emf at application scope
-        context.setAttribute("emf", emf);
         // set fuelOrders data acess object at application scope
         context.setAttribute("fuelOrdersManager", new FuelOrdersManager(emf));
         // set fuel type attribute for drop down list in home.jsp
