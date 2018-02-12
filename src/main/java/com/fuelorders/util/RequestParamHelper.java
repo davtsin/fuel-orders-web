@@ -14,7 +14,7 @@ import org.apache.commons.beanutils.BeanUtils;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 
 // class for populating data transfer objects (DTO) with request parameters

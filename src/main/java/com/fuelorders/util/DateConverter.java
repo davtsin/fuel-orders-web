@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 public class DateConverter {
     

@@ -19,7 +19,7 @@ import javax.persistence.OneToMany;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 @Entity
 @NamedQueries({

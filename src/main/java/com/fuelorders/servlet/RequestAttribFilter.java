@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 
 // Attribute "companies" which contains list of all companies is frequently

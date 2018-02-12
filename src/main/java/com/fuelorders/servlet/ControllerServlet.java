@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 @WebServlet(name = "Controller", loadOnStartup = 1,
     urlPatterns = {

@@ -1,7 +1,7 @@
 <%-- 
     Document   : home
     Created on : Jan 15, 2018, 6:07:55 PM
-    Author     : denis
+    Author     : avtsin denis
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

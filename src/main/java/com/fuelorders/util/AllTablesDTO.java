@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 // data transfer object, which recieves data from database containing result
 // of JOIN operation between Company, FillingStation and Order tables

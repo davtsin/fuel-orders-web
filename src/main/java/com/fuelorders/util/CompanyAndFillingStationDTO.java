@@ -7,7 +7,7 @@ package com.fuelorders.util;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 
 // data transfer object, which recieves data from database containing result

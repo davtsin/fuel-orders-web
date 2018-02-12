@@ -7,7 +7,7 @@ package com.fuelorders.util;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 
 // enumeration for fuel types

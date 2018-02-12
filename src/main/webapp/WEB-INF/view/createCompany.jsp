@@ -1,7 +1,7 @@
 <%-- 
     Document   : createCompany
     Created on : Jan 16, 2018, 12:07:49 PM
-    Author     : denis
+    Author     : avtsin denis
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -17,7 +17,7 @@ import javax.servlet.annotation.WebListener;
 /**
  * Web application lifecycle listener.
  *
- * @author denis
+ * @author avtsin denis
  */
 @WebListener
 public class FuelOrdersWebListener implements ServletContextListener {

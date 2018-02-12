@@ -18,7 +18,7 @@ import javax.persistence.TypedQuery;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 public class FuelOrdersManager {
 

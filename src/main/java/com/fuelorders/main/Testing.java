@@ -23,7 +23,7 @@ import java.util.List;
 
 /**
  *
- * @author denis
+ * @author avtsin denis
  */
 public class Testing {
 
