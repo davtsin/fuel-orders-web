@@ -130,11 +130,20 @@ public class AllTablesDTO {
 
     @Override
     public String toString() {
-        return "AllTablesDTO{" + "id=" + id + ", companyName=" + companyName + 
-            ", fillingStationCode=" + fillingStationCode + 
-            ", fillingStationAddress=" + fillingStationAddress + ", orderDate=" + orderDate + 
-            ", fuelType=" + fuelType + ", costPerLiter=" + costPerLiter + 
-            ", discount=" + discount + ", amountLiters=" + amountLiters + 
-            ", totalCost=" + totalCost + ", orderDateHr=" + orderDateHr + '}';
+        StringBuilder toStringBuilder;
+        toStringBuilder = new StringBuilder("AllTablesDTO{");
+        toStringBuilder.append("id=").append(this.id);
+        toStringBuilder.append(",companyName=").append(this.companyName);
+        toStringBuilder.append(",fillingStationCode=").append(this.fillingStationCode);
+        toStringBuilder.append(",fillingStationAddress=").append(this.fillingStationAddress);
+        toStringBuilder.append(",orderDate=").append(this.orderDate);
+        toStringBuilder.append(",orderDateHr=").append(this.orderDateHr);
+        toStringBuilder.append(",fuelType=").append(this.fuelType);
+        toStringBuilder.append(",costPerLiter=").append(this.costPerLiter);
+        toStringBuilder.append(",discount=").append(this.discount);
+        toStringBuilder.append(",amountLiters=").append(this.amountLiters);
+        toStringBuilder.append(",totalCost=").append(this.totalCost);
+        toStringBuilder.append('}');
+        return toStringBuilder.toString();
     }
 }

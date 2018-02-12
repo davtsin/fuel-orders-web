@@ -120,9 +120,16 @@ public class FuelOrder {
 
     @Override
     public String toString() {
-        return "FuelOrder{" + "id=" + id + ", creationDate=" + creationDate + 
-            ", fuelType=" + fuelType + ", costPerLiter=" + costPerLiter + 
-            ", discount=" + discount + ", amountLiters=" + amountLiters + 
-            ", totalCost=" + totalCost + '}';
+        StringBuilder toStringBuilder;
+        toStringBuilder = new StringBuilder("FuelOrder{");
+        toStringBuilder.append("id=").append(this.id);
+        toStringBuilder.append(",creationDate=").append(this.creationDate);
+        toStringBuilder.append(",fuelType=").append(this.fuelType);
+        toStringBuilder.append(",costPerLiter=").append(this.costPerLiter);
+        toStringBuilder.append(",discount=").append(this.discount);
+        toStringBuilder.append(",amountLiters=").append(this.amountLiters);
+        toStringBuilder.append(",totalCost=").append(this.totalCost);
+        toStringBuilder.append('}');
+        return toStringBuilder.toString();
     }
 }

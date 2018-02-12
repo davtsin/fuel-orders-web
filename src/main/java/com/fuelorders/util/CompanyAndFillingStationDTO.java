@@ -44,7 +44,13 @@ public class CompanyAndFillingStationDTO {
 
     @Override
     public String toString() {
-        return "FillingStationJoinCompany{" + "id=" + id + ", code=" + code + ", "
-            + "address=" + address + ", companyName=" + companyName + '}';
+        StringBuilder toStringBuilder;
+        toStringBuilder = new StringBuilder("CompanyAndFillingStationDTO{");
+        toStringBuilder.append("id=").append(this.id);
+        toStringBuilder.append(",code=").append(this.code);
+        toStringBuilder.append(",address=").append(this.address);
+        toStringBuilder.append(",companyName=").append(this.companyName);
+        toStringBuilder.append('}');
+        return toStringBuilder.toString();
     }
 }

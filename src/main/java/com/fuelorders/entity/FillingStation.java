@@ -76,7 +76,13 @@ public class FillingStation {
 
     @Override
     public String toString() {
-        return "FillingStation{" + "id=" + id + ", code=" + code + 
-            ", address=" + address + ", orders=" + orders + '}';
+        StringBuilder toStringBuilder;
+        toStringBuilder = new StringBuilder("FillingStation{");
+        toStringBuilder.append("id=").append(this.id);
+        toStringBuilder.append(",code=").append(this.code);
+        toStringBuilder.append(",address=").append(this.address);
+        toStringBuilder.append(",orders=").append(this.orders);
+        toStringBuilder.append('}');
+        return toStringBuilder.toString();
     }
 }

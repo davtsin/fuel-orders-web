@@ -94,7 +94,12 @@ public class Company {
 
     @Override
     public String toString() {
-        return "Company{" + "id=" + id + ", name=" + name + 
-            ", fillingStations=" + fillingStations + '}';
+        StringBuilder toStringBuilder;
+        toStringBuilder = new StringBuilder("Company{");
+        toStringBuilder.append("id=").append(this.id);
+        toStringBuilder.append(",name=").append(this.name);
+        toStringBuilder.append(",fillingStations=").append(this.fillingStations);
+        toStringBuilder.append('}');
+        return toStringBuilder.toString();
     }
 }
